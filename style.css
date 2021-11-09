@@ -81,3 +81,17 @@ body {
   margin-left: 0;
   display: block;
 }
+@media (max-width: 700px) {
+  .introduction,
+  .direction,
+  .logo {
+    width: 100%;
+  }
+  .navbar {
+    margin-right: 1%;
+  }
+  .part1 {
+    display: block;
+    align-items: center;
+  }
+}
